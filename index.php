@@ -70,8 +70,8 @@
       <p class="par2">Since 2001 ,our mission has been to bring the community <br>together .provide education on sustainable gardening practices.<br>and help  the environment  thrive.we're done this by <br>developing a space where people can have their own plots.<br>where others can work on shared plots and raising funds to<br> build greenhouse.We offer weekly classes on sustainability <br>practices composting and more so that the community can<br> take their skills to their home gardens.</p>
     </div>
   </div>
-  <div class="pic-abt">
-    <img src="agri3.png" alt="agri3" style="width:50%;height:400px;">
+  <div class="col-abt">
+    <img src="agri3.png" alt="agri3" style="width:100%;height:100%;">
     </div>
   </div>
 
@@ -106,13 +106,12 @@
       </p>
     </div>
   </div>
-  <div class="pic-dif">
-    <img src="agri4.png" alt="agri4" style="width:50%;height:400px;">
+  <div class="col-dif">
+    <img src="agri4.png" alt="agri4" style="width:100%;height:100%;">
     </div>
   </div>
 
 <!---=====contact section======--->
-<div class="container">
   <div class="row2">
     <div class="columna">
       <form action="/action_page.php">      
@@ -125,10 +124,11 @@
       </form>
     </div>
     
-<div class="columnb">
+<div class="columna"> 
+    <div class="columnb">
   <div class="row1">
     <h2 class="h2-con">Volunteer Opportunities</h2>
-    <p class="row1-par">
+    <p class="row-par1">
         You would be helping us dig plant,weed and grow the garden.Volunteers are welcome<br> during the week and are recommended to bring water,sunscreen,<br>comfortable clothing and close-toed shoes. 
     </p>
   </div>
@@ -141,13 +141,11 @@
   <div class="row-par3">
     <h2 class="h2">Classes</h2>
     <p>If you would like to teach a class feel free to send us your ideas.</p>
-  </div>
-</div>
-    </div>
-    </div>
-  </div>
+     </div>
+     </div>
+      </div>
+     </div>
     
-
       <div class="footer">
        <div class="icon-bar">
 	<a href="#"><i class="fa fa-facebook"></i></a>
@@ -155,11 +153,11 @@
 	<a href="#"><i class="fa fa-instagram"></i></a>
 	<a href="#"><i class="fa fa-linkedin"></i></a>
 	<a href="#"><i class="fa fa-youtube"></i></a>
-       </div> 
+         </div> 
          
               <h5 class="H5">Copy rights &COPY; 2019 DE-Balos Enterprice All Rights Reserved</h5>
-          <h6 class="h6">Powered By Abe Designs</h6>
+             <h6 class="h6">Powered By Abe Designs</h6>
          
-      </div>
+         </div>
 </body>
 </html>

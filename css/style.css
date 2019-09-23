@@ -160,28 +160,21 @@ padding:10px;
 
 .row-abt {
   margin: 0;
-    background-color: #ffffff;
+  background-color: #ffffff;
   padding: 20px;
   font-family: Arial;
   
 }
 
-.row-abt,
-.row-abt > .col-abt {
-  padding: 15px;
-}
+
 
 .col-abt {
   float: left;
   width: 50%;
-  height: 800px;
+  height: 100vh;
+  padding: 10px;
 }
 
-.row-abt:before {
-  content: "";
-  display: table;
-  clear: both;
-}
 .row-abt:after {
   content: "";
   display: table;
@@ -220,27 +213,19 @@ par1,par2{
 
 .row-dif {
   margin: 0;
-    background-color: #ffffff;
+  background-color: #ffffff;
   padding: 20px;
   font-family: Arial;
   
 }
 
-.row-dif,
-.row-dif > .col-dif {
-  padding: 15px;
-}
-
 .col-dif {
   float: left;
   width: 50%;
-  height: 800px;
+  height: 100vh;
+  padding:10px;
 }
-.row-dif:before {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 .row-dif:after {
   content: "";
   display: table;
@@ -272,7 +257,9 @@ par3,par4,par5{
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
-}h1 {
+}
+
+h1{
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -327,13 +314,16 @@ input[type=send]:hover {
   background-color:#4CAF50 ;
 }
 
-/* Style the container/contact section */
-.container {
+.row2{
   border-radius: none;
-  background-color: #f2f2f2;
-  padding: 10px;
+  background: #4CAF50;
+  padding: 20px;
   width:100%;
   height:100%;
+  font-size:18px;
+  font-weight:normal;
+  margin: 0;
+  font-family: Arial;
 }
 
 /* Create two columns that float next to eachother */
@@ -341,14 +331,11 @@ input[type=send]:hover {
   float: left;
   width: 50%;
   margin-top: 6px;
-  padding: 60px;
+  padding: 10px;
+  height:100%;
+  
 }
-.columnb {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 60px;
-}
+
 /* Clear floats after the columns */
 .row2:after {
   content: "";
@@ -357,7 +344,11 @@ input[type=send]:hover {
 }
 
 
-/* Create three equal columns that floats next to each other */
+.columnb:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .row1{
   float: left;
   padding: 0px;
@@ -365,7 +356,7 @@ input[type=send]:hover {
   height: 200px;
   margin-bottom: 2px;
 }
-.row1-par {
+.row-par1 {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -394,27 +385,6 @@ input[type=send]:hover {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-
-/* Clear floats after the columns */
-.column1:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the container/contact section */
-.container {
-  border-radius: none;
-  background: #4CAF50;
-  padding: 44px;
-  width:100%;
-  height:100%;
-  font-size:16px;
-    font-weight:normal;
-}
-
-
-
 
 icon-bar{
     width:100%;
@@ -503,28 +473,26 @@ icon-bar{
   }
   
    input[type=send],
-   input[type=text] {
+   input[type=text] ,input[type=submit],textarea{
     width: 100%;
     margin-top: 0;
     
     
   }
-  .container{
+  .row2{
       height:100%;
       width:100%;
       padding:0;
-      margin:0;
+      margin:auto;
   }
   .icon-bar {
       text-align:center;
-    width: 100%;
-   text-align:center;
-   bottom: -20%;
-        left:50%;
+      width: 100%;
+      text-align:center;
+      bottom: -20%;
+      left:50%;
   }
-  .H2{
-    margin-block-end: -0.34em;  
-  }
+  
   .col-abt{
     width:100%;
     margin:auto;
@@ -533,17 +501,15 @@ icon-bar{
     height:100%;
     
   }
-  .pic-abt{
-     float:left;
-     width:100%;
-     height:100%;
-    margin:0;
-  }
+  
   .col-dif{
-      width:100%;
-      margin:auto;
-    max-height:1000px;
+    width:100%;
+    margin:auto;
+    height:100%;
+    padding:0;
+    overflow-x:hidden;
   }
+
   .row-abt{
       width:100%;
       margin:auto;    
@@ -556,17 +522,20 @@ icon-bar{
       overflow-x:hidden;
       height:100%;
   }
-  .columna,.row2{
-      width:100%;
-      height:100%
-  }
-    .columnb{
-      width:100%;
-      height:100%
-    }
-  .row1,.row-par2,.row-par3{
+  .columna{
+      float:none;
       width:100%;
       height:100%;
+      padding:0;
+      margin:auto;
+      
+  }
+  
+  .row-par1,.row-par2,.row-par3{
+      width:100%;
+      padding:0;
+      margin:auto;
+      height:400px;
   }
   footer{
       font-size:30px;
