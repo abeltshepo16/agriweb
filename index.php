@@ -71,7 +71,7 @@
     </div>
   </div>
   <div class="col-abt">
-    <img src="agri3.png" alt="agri3" style="width:100%;height:100%;">
+    <img src="agri-web1.jpeg" alt="agri-web1" style="width:100%;height:100%;">
     </div>
   </div>
 
@@ -107,7 +107,7 @@
     </div>
   </div>
   <div class="col-dif">
-    <img src="agri4.png" alt="agri4" style="width:100%;height:100%;">
+    <img src="agri-web2.jpeg" alt="agri-web2" style="width:100%;height:100%;">
     </div>
   </div>
 
