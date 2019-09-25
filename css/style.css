@@ -1,6 +1,7 @@
 * {box-sizing: border-box;}
 
 body { 
+  padding:0px;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x:hidden;
@@ -9,7 +10,7 @@ body {
 .header {
   overflow: hidden;
   background-color: #fff;
-  padding: 40px;
+  padding: 33px 0px 0px 0px;
   height:200px;
   display:block;
 }
@@ -47,6 +48,7 @@ body {
   padding-right:70px
   font-size: 60px;
   color:green;
+  width:100%;
 }
 
 .bg-image {
@@ -56,10 +58,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* Position text in the middle of the page/image */
+
 .bg-text {
-  background-color: (76,175,80); /* Fallback color */
-  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  background-color: rgb(76,175,80); 
+  background-color: rgba(0,0,0, 0.5); 
   color: green;
   font-weight: bold;
   font-size:20px;
@@ -161,7 +163,7 @@ padding:10px;
 .row-abt {
   margin: 0;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 0px;
   font-family: Arial;
   
 }
@@ -171,8 +173,8 @@ padding:10px;
 .col-abt {
   float: left;
   width: 50%;
-  height: 100vh;
-  padding: 10px;
+  height: 100%;
+  padding: 0px;
 }
 
 .row-abt:after {
@@ -190,19 +192,19 @@ par1,par2{
 }
 .contents1 {
   background-color: white;
-  padding: 15px 0px 31px 40px;
+  padding: 15px 10px 5px 10px;
   
 }
 
 .hr1{
-    width:260px;
+    width:180px;
     border-right:2px solid green;
     display: block;
     unicode-bidi: isolate;
     margin-block-start: -2.5em;
     margin-block-end: 2.5em;
     margin-inline-start: auto;
-    margin-inline-end: 80px;
+    margin-inline-end: 7px;
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
@@ -214,7 +216,7 @@ par1,par2{
 .row-dif {
   margin: 0;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 0px;
   font-family: Arial;
   
 }
@@ -222,8 +224,8 @@ par1,par2{
 .col-dif {
   float: left;
   width: 50%;
-  height: 100vh;
-  padding:10px;
+  height: 100%;
+  padding:0px;
 }
 
 .row-dif:after {
@@ -241,19 +243,19 @@ par3,par4,par5{
 }
 .contents2 {
   background-color: white;
-  padding: 15px 0px 0px 40px;
+  padding: 15px 10px 0px 10px;
   
 }
 
 .hr2{
-    width:200px;
+    width:160px;
     border-right:2px solid green;
     display: block;
     unicode-bidi: isolate;
     margin-block-start: -2.5em;
     margin-block-end: 2.5em;
     margin-inline-start: auto;
-    margin-inline-end: 44px;
+    margin-inline-end: 7px;
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
@@ -264,7 +266,7 @@ h1{
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
-    margin-inline-start: 56px;
+    margin-inline-start: 20px;
     margin-inline-end: 0px;
     font-weight: bold;
 }
@@ -366,7 +368,7 @@ input[type=send]:hover {
 .row-par2{
   float: left;
   width: 100%;
-  height: 200px;
+  height: 230px;
   margin:0;
   
 }
@@ -421,24 +423,24 @@ icon-bar{
 }
 
 .H5{ 
-    width:60%;
+    width:100%;
     color: white;
     display: inline-block;
-    font-size: 1.3em;
-    margin-block-start: 2.5em;
-    margin-block-end: 2.33em;
+    font-size: 1.02em;
+    margin-block-start: 1.5em;
+    margin-block-end: -0.67em;
     margin-inline-start: 0px;
     margin-inline-end: auto;
     font-weight: bold;
     float: left;
 }
 .h6 {
-     width:40%;
+     width:100%;
     color:white;
     display: inline-block;
-    font-size: 1.3em;
-    margin-block-start: 2.5em;
-    margin-block-end: 2.33em;
+    font-size: 1.2em;
+    margin-block-start: 1.5em;
+    margin-block-end: 0.33em;
     margin-inline-start: 0px;
     margin-inline-end: auto;
     font-weight: bold;
@@ -446,8 +448,7 @@ icon-bar{
 }
 
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 480px) {
      .header a {
     float: none;
     display: block;
@@ -460,7 +461,9 @@ icon-bar{
   
   .header-center {
     float: none;
-        text-align:left;
+   text-align:left;
+   width:100%;
+        
   }
   .column {
     width: 100%;
@@ -469,7 +472,7 @@ icon-bar{
       width:100%;
       float:left;
       font-size:20px;
-      transform:translate(-50%,50%);
+      transform:translate(-50%,40%);
   }
   
    input[type=send],
@@ -545,3 +548,68 @@ icon-bar{
 }
 
 
+@media  screen and (max-width: 768px) {
+
+  .column {
+    width: 33.33%;
+  }
+  .bg-text{
+      width:50%;
+      float:left;
+      font-size:20px;
+      transform:translate(-50%,-60%);
+  }
+
+  .columna{
+      float:none;
+      width:50%;
+      height:100%;
+      padding:0;
+      margin:auto;
+      
+  }
+
+
+@media  screen and (max-width: 1024px) {
+
+  .column {
+    width: 33.33%;
+  }
+  .bg-text{
+      width:50%;
+      float:left;
+      font-size:20px;
+      transform:translate(-50%,-100%);
+      bottom:-7px;
+  }
+  .col-dif{
+      width:50%;
+      height:65vh;
+  }
+  .col-abt{
+      width:50%;
+      height:65vh;
+  }
+  .columna{
+      float:none;
+      width:50%;
+      height:100%;
+      padding:0;
+      margin:auto;
+      column-gap: 10px;
+    } 
+
+}
+@media  screen and (max-width: 1322px) {
+     .bg-text{
+      width:50%;
+      float:left;
+      font-size:20px;
+      transform:translate(-50%,-100%);
+      bottom:23px;
+  }
+  .columna{
+      width:50%;
+  }
+    
+}
