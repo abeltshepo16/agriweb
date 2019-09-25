@@ -23,7 +23,7 @@
     
   </div>
 </div>
-<div class="bg-image"></div>
+    <div class="bg-image"><img src="images/img/agri-back.jpeg" alt="agri-back"></div>
 
 <div class="bg-text">
   <h1>GOING GREEN IS EASY</h1>
@@ -35,21 +35,21 @@
 <div class="row">
   <div class="column">
     <div class="content">
-      <img src="pic1.jpg" alt="Mountains" style="width:100%;height:300px;border-radius: 50%;">
+      <img src="images/img/agri-img3.jpeg" alt="Mountains" style="width:100%;height:300px;border-radius: 50%;">
       <h3>SERVICE</h3>
       
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <img src="pic2.jpg" alt="Lights" style="width:100%;height:300px;border-radius: 50%;">
+    <img src="images/img/agri-main.jpeg" alt="Lights" style="width:100%;height:300px;border-radius: 50%;">
       <h3>STUFF</h3>
       
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <img src="pic3.jpg" alt="Nature" style="width:100%;height:300px;border-radius: 50%; ">
+    <img src="images/img/agri-img5.jpeg" alt="Nature" style="width:100%;height:300px;border-radius: 50%; ">
       <h3>ABOUT US</h3>
 
     </div>
@@ -71,7 +71,7 @@
     </div>
   </div>
   <div class="col-abt">
-    <img src="agri-web1.jpeg" alt="agri-web1" style="width:100%;height:100%;">
+    <img src="images/img/agri-img1.jpeg" alt="agri-img1" style="width:100%;height:100%;">
     </div>
   </div>
 
@@ -107,7 +107,7 @@
     </div>
   </div>
   <div class="col-dif">
-    <img src="agri-web2.jpeg" alt="agri-web2" style="width:100%;height:100%;">
+    <img src="images/img/agri-img2.jpeg" alt="agri-img2" style="width:100%;height:100%;">
     </div>
   </div>
 
