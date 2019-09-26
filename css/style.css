@@ -1,8 +1,9 @@
 * {box-sizing: border-box;}
 
 body { 
+    width:100%;
   padding:0px;
-  margin: 0;
+  margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x:hidden;
 }
@@ -448,7 +449,7 @@ icon-bar{
 }
 
 
-@media  screen and (max-width: 480px) {
+@media  screen and (max-width: 425px) {
      .header a {
     float: none;
     display: block;
