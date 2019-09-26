@@ -57,7 +57,7 @@
   </div>
 <!--======About Section=====----->
 
-<div class="row-abt" style="background:lightgreen">
+<div class="row-abt" style="background:lightcyan">
   <div class="col-abt">
       <h1 style="text-align:left">ABOUT US</h1><hr class="hr1">
     <div class="contents1">
@@ -71,7 +71,7 @@
     </div>
   </div>
   <div class="col-abt">
-    <img src="images/img/agri-img1.jpeg" alt="agri-img1" style="width:100%;height:100%;">
+    <img src="images/img/agri-img1.jpeg" alt="agri-img1" style="width:100%;height:80vh;">
     </div>
   </div>
 
@@ -107,7 +107,7 @@
     </div>
   </div>
   <div class="col-dif">
-    <img src="images/img/agri-img2.jpeg" alt="agri-img2" style="width:100%;height:100%;">
+    <img src="images/img/agri-img2.jpeg" alt="agri-img2" style="width:100%;height:85vh;">
     </div>
   </div>
 
